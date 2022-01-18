@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2877CCC23419DC48F0AD43 /* Pods_F_ckTheMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D913D28EDC8ACF72130A8DA /* Pods_F_ckTheMoney.framework */; };
 		635529E62791511700466EFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635529E52791511700466EFD /* AppDelegate.swift */; };
 		635529E82791511700466EFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635529E72791511700466EFD /* SceneDelegate.swift */; };
 		635529EA2791511700466EFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635529E92791511700466EFD /* ViewController.swift */; };
 		635529ED2791511700466EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635529EB2791511700466EFD /* Main.storyboard */; };
 		635529EF2791511800466EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635529EE2791511800466EFD /* Assets.xcassets */; };
 		635529F22791511800466EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635529F02791511800466EFD /* LaunchScreen.storyboard */; };
+		63A50C6A2793F58E0045C27F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A50C692793F58E0045C27F /* TableViewCell.swift */; };
+		63A50C6C2794068D0045C27F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A50C6B2794068D0045C27F /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D913D28EDC8ACF72130A8DA /* Pods_F_ckTheMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_F_ckTheMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635529E22791511700466EFD /* F_ckTheMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F_ckTheMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		635529E52791511700466EFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		635529E72791511700466EFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		635529EE2791511800466EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		635529F12791511800466EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		635529F32791511800466EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A50C692793F58E0045C27F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		63A50C6B2794068D0045C27F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C6DD593C37FC9439CDEBB93E /* Pods-F_ckTheMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F_ckTheMoney.debug.xcconfig"; path = "Target Support Files/Pods-F_ckTheMoney/Pods-F_ckTheMoney.debug.xcconfig"; sourceTree = "<group>"; };
+		DB40553241BB54013C7EADFC /* Pods-F_ckTheMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F_ckTheMoney.release.xcconfig"; path = "Target Support Files/Pods-F_ckTheMoney/Pods-F_ckTheMoney.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2877CCC23419DC48F0AD43 /* Pods_F_ckTheMoney.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				635529E42791511700466EFD /* F_ckTheMoney */,
 				635529E32791511700466EFD /* Products */,
+				DC6084F71EA108F2BC1A5894 /* Pods */,
+				D0D9F3CFFFF315A30DBC7086 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +69,8 @@
 			children = (
 				635529E52791511700466EFD /* AppDelegate.swift */,
 				635529E72791511700466EFD /* SceneDelegate.swift */,
+				63A50C6B2794068D0045C27F /* Models.swift */,
+				63A50C692793F58E0045C27F /* TableViewCell.swift */,
 				635529E92791511700466EFD /* ViewController.swift */,
 				635529EB2791511700466EFD /* Main.storyboard */,
 				635529EE2791511800466EFD /* Assets.xcassets */,
@@ -67,6 +80,23 @@
 			path = F_ckTheMoney;
 			sourceTree = "<group>";
 		};
+		D0D9F3CFFFF315A30DBC7086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D913D28EDC8ACF72130A8DA /* Pods_F_ckTheMoney.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC6084F71EA108F2BC1A5894 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6DD593C37FC9439CDEBB93E /* Pods-F_ckTheMoney.debug.xcconfig */,
+				DB40553241BB54013C7EADFC /* Pods-F_ckTheMoney.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 635529F62791511800466EFD /* Build configuration list for PBXNativeTarget "F_ckTheMoney" */;
 			buildPhases = (
+				6795DFB243B1C360C43E24F8 /* [CP] Check Pods Manifest.lock */,
 				635529DE2791511700466EFD /* Sources */,
 				635529DF2791511700466EFD /* Frameworks */,
 				635529E02791511700466EFD /* Resources */,
+				9795B0AD25B535718EF34030 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +165,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6795DFB243B1C360C43E24F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-F_ckTheMoney-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9795B0AD25B535718EF34030 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-F_ckTheMoney/Pods-F_ckTheMoney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-F_ckTheMoney/Pods-F_ckTheMoney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-F_ckTheMoney/Pods-F_ckTheMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		635529DE2791511700466EFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A50C6A2793F58E0045C27F /* TableViewCell.swift in Sources */,
 				635529EA2791511700466EFD /* ViewController.swift in Sources */,
 				635529E62791511700466EFD /* AppDelegate.swift in Sources */,
+				63A50C6C2794068D0045C27F /* Models.swift in Sources */,
 				635529E82791511700466EFD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +360,7 @@
 		};
 		635529F72791511800466EFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6DD593C37FC9439CDEBB93E /* Pods-F_ckTheMoney.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,12 +383,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		635529F82791511800466EFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB40553241BB54013C7EADFC /* Pods-F_ckTheMoney.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -334,7 +412,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
